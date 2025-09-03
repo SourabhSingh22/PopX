@@ -28,7 +28,7 @@ const CreateAccountPage = () => {
 
 
     return (
-        <div className='w-[375px] h-[100vh] shadow-md relative bg-gray-50 px-2 py-4'>
+        <div className='w-[385px] sm:w-[375px] h-[100vh] shadow-md relative bg-gray-50 px-2 py-4'>
             <div className=' w-56 mt-1 ml-4'>
                 <h1 className='text-3xl font-bold '>Create your PopX account</h1>
             </div>
@@ -108,7 +108,7 @@ const CreateAccountPage = () => {
                     </div>
                     <div
                         style={{ backgroundColor: "#6C25FF" }}
-                        className="px-2 py-3 rounded-md mt-8"
+                        className="px-2 py-3 rounded-md sm:mt-8 mt-25"
                     >
                         <button className="text-center w-full text-white font-medium cursor-pointer">
                             Create Account

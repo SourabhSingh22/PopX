@@ -11,7 +11,7 @@ const ProfilePage = () => {
 
 
     return (
-        <div className='w-[375px] h-[100vh] shadow-md bg-gray-50 relative'>
+        <div className='w-[385px] sm:w-[375px] h-[100vh] shadow-md bg-gray-50 relative'>
             <div className='bg-white w-full h-16 shadow-sm pl-6 text-lg text-gray-800 font-semibold py-4'>
                 <h1>Account Settings</h1>
             </div>
